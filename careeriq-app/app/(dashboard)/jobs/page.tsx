@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useEffect, useState } from 'react';
 import { Plus, Pencil, Trash2 } from 'lucide-react';
 import { Job } from '@/lib/supabase';
@@ -173,7 +175,7 @@ function JobModal({ job, onClose, onSave }: { job: Job | null; onClose: () => vo
     salary_range: job?.salary_range || '',
     job_url: job?.job_url || '',
     status: job?.status || 'applied',
-    applied_date: job?.applied_date || new Date().toISOString().split('T')[0],
+    applied_date: job?.applied_date ? (typeof job.applied_date === 'string' ? job.applied_date : new Date(job.applied_date).toISOString().split('T')[0]) : new Date().toISOString().split('T')[0],
     notes: job?.notes || '',
   });
 

@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useEffect, useState, useRef } from 'react';
 import { Send, Plus } from 'lucide-react';
 import { Conversation, Message } from '@/lib/supabase';

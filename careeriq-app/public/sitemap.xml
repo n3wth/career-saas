@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://career-saas.vercel.app/</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://career-saas.vercel.app/og-image.jpg</image:loc>
+      <image:title>CareerIQ - AI Career Intelligence Platform</image:title>
+    </image:image>
+  </url>
+
+  <!-- Sign Up -->
+  <url>
+    <loc>https://career-saas.vercel.app/sign-up</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://career-saas.vercel.app/blog</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://career-saas.vercel.app/blog/future-of-work-ai-reshaping-careers</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Resources -->
+  <url>
+    <loc>https://career-saas.vercel.app/resources</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://career-saas.vercel.app/resources/tech-skills-demand-2026</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dashboard (if accessible to search engines) -->
+  <url>
+    <loc>https://career-saas.vercel.app/dashboard</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Policy Pages -->
+  <url>
+    <loc>https://career-saas.vercel.app/privacy</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://career-saas.vercel.app/terms</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

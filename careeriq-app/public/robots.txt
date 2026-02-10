@@ -1,0 +1,22 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow bot farms and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://career-saas.vercel.app/sitemap.xml
+
+# Crawl delay for bots (500ms)
+Crawl-delay: 0.5

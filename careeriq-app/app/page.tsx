@@ -1,5 +1,8 @@
+export const dynamic = 'force-dynamic';
+
 import { redirect } from 'next/navigation';
 import { auth } from '@clerk/nextjs/server';
+import LandingPage from './landing-page';
 
 export default async function Home() {
   const { userId } = await auth();
@@ -8,5 +11,6 @@ export default async function Home() {
     redirect('/dashboard');
   }
   
-  redirect('/sign-in');
+  // Show landing page for logged-out users
+  return <LandingPage />;
 }

@@ -1,11 +1,11 @@
 import Stripe from 'stripe';
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-12-18.acacia',
+export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'sk_test_placeholder', {
+  apiVersion: '2026-01-28.clover',
   typescript: true,
 });
 
-export const PRICE_ID = process.env.STRIPE_PRICE_ID!;
+export const PRICE_ID = process.env.STRIPE_PRICE_ID || 'price_placeholder';
 
 export async function createCheckoutSession(userId: string, email: string) {
   return stripe.checkout.sessions.create({
