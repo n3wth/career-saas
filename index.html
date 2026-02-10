@@ -83,20 +83,10 @@
             align-items: center;
             justify-content: center;
             padding: 120px 24px 80px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #ffffff;
             position: relative;
             overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -10%;
-            width: 80%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-            pointer-events: none;
+            border-bottom: 1px solid #e5e5ea;
         }
 
         .hero-content {
@@ -161,14 +151,14 @@
         }
 
         .btn-primary {
-            background: #ffffff;
-            color: #667eea;
+            background: #000000;
+            color: #ffffff;
         }
 
         .btn-primary:hover {
-            background: #f5f5f7;
+            background: #1d1d1f;
             transform: translateY(-2px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         .btn-secondary {
@@ -210,12 +200,13 @@
             border-radius: 24px;
             padding: 44px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         .feature-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-            border-color: #667eea;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-color: #1d1d1f;
         }
 
         .feature-icon {
@@ -260,8 +251,9 @@
             flex-shrink: 0;
             width: 64px;
             height: 64px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #ffffff;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            border: 1px solid #e5e5ea;
             border-radius: 16px;
             display: flex;
             align-items: center;
@@ -296,12 +288,13 @@
         }
 
         .pricing-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #ffffff;
+            border: 2px solid #1d1d1f;
             border-radius: 28px;
             padding: 56px;
             text-align: center;
-            color: #ffffff;
-            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+            color: #1d1d1f;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         .price {
@@ -309,11 +302,12 @@
             font-size: 72px;
             font-weight: 700;
             margin: 24px 0;
+            color: #1d1d1f;
         }
 
         .price-unit {
             font-size: 28px;
-            opacity: 0.9;
+            color: #6e6e73;
             font-weight: 500;
         }
 
@@ -360,8 +354,8 @@
 
         input:focus {
             outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            border-color: #000000;
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
         }
 
         /* Footer */
