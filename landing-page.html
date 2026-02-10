@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Intelligence System | Get Promoted Faster</title>
+    <meta name="description" content="Data-driven career strategy for ambitious professionals. Track your progress, identify skill gaps, and get promoted faster with AI-powered career intelligence.">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #ffffff;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 32px 80px;
+            text-align: center;
+            background: #ffffff;
+            border-bottom: 1px solid #f5f5f7;
+        }
+
+        .hero-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #6e6e73;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        .hero-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: #1d1d1f;
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+            color: #3a3a3c;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #f5f5f7;
+            border: 1px solid #e5e5ea;
+            color: #1d1d1f;
+            padding: 16px 40px;
+            text-decoration: none;
+            border-radius: 14px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin: 0 8px;
+        }
+
+        .button:hover {
+            background: #e5e5ea;
+            transform: translateY(-2px);
+        }
+
+        .button-primary {
+            background: #1d1d1f;
+            color: #ffffff;
+            border-color: #1d1d1f;
+        }
+
+        .button-primary:hover {
+            background: #3a3a3c;
+        }
+
+        /* Problem Section */
+        .problem-section {
+            padding: 80px 32px;
+            background: #f5f5f7;
+            text-align: center;
+        }
+
+        .problem-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 48px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .problem-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .problem-card {
+            background: #ffffff;
+            border: 1px solid #e5e5ea;
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: left;
+        }
+
+        .problem-card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+        }
+
+        .problem-card-text {
+            font-size: 15px;
+            color: #3a3a3c;
+            line-height: 1.6;
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 80px 32px;
+            background: #ffffff;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1d1d1f;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: #ffffff;
+            border: 1px solid #e5e5ea;
+            border-radius: 16px;
+            padding: 40px 32px;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 24px;
+        }
+
+        .feature-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+        }
+
+        .feature-description {
+            font-size: 15px;
+            color: #3a3a3c;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            font-size: 14px;
+            color: #3a3a3c;
+            padding-left: 24px;
+            position: relative;
+            margin: 10px 0;
+        }
+
+        .feature-list li:before {
+            content: '–';
+            position: absolute;
+            left: 0;
+            color: #c7c7cc;
+        }
+
+        /* Social Proof */
+        .social-proof {
+            padding: 80px 32px;
+            background: #f5f5f7;
+            text-align: center;
+        }
+
+        .social-proof-stat {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+        }
+
+        .stat-description {
+            font-size: 18px;
+            color: #3a3a3c;
+            line-height: 1.6;
+        }
+
+        /* Pricing Section */
+        .pricing-section {
+            padding: 80px 32px;
+            background: #ffffff;
+            text-align: center;
+        }
+
+        .pricing-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+
+        .pricing-card {
+            background: #ffffff;
+            border: 1px solid #e5e5ea;
+            border-radius: 20px;
+            padding: 40px 32px;
+            text-align: left;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .pricing-card.featured {
+            border: 2px solid #1d1d1f;
+            position: relative;
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1d1d1f;
+            color: #ffffff;
+            padding: 4px 16px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .pricing-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #6e6e73;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+        }
+
+        .pricing-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1d1d1f;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .pricing-period {
+            font-size: 16px;
+            color: #6e6e73;
+            margin-bottom: 24px;
+        }
+
+        .pricing-description {
+            font-size: 14px;
+            color: #3a3a3c;
+            line-height: 1.6;
+            margin-bottom: 32px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #f5f5f7;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .pricing-features li {
+            font-size: 14px;
+            color: #3a3a3c;
+            padding-left: 28px;
+            position: relative;
+            margin: 12px 0;
+        }
+
+        .pricing-features li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #1d1d1f;
+            font-weight: 600;
+        }
+
+        .pricing-cta {
+            width: 100%;
+            text-align: center;
+            padding: 14px 24px;
+            font-size: 15px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 32px;
+            background: #1d1d1f;
+            text-align: center;
+        }
+
+        .cta-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .cta-subtitle {
+            font-size: 18px;
+            color: #e5e5ea;
+            margin-bottom: 32px;
+        }
+
+        .button-light {
+            background: #ffffff;
+            color: #1d1d1f;
+            border-color: #ffffff;
+        }
+
+        .button-light:hover {
+            background: #f5f5f7;
+        }
+
+        /* Footer */
+        .footer {
+            background: #ffffff;
+            border-top: 1px solid #f5f5f7;
+            padding: 48px 32px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 14px;
+            color: #6e6e73;
+            margin: 8px 0;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 16px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            color: #6e6e73;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #1d1d1f;
+        }
+
+        @media (max-width: 768px) {
+            .hero { padding: 80px 24px 60px; }
+            .hero-title { font-size: 36px; }
+            .hero-subtitle { font-size: 18px; }
+            .button { margin: 8px 0; display: block; }
+            .problem-grid { grid-template-columns: 1fr; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .pricing-container { grid-template-columns: 1fr; }
+            .section-title { font-size: 28px; }
+            .problem-title { font-size: 24px; }
+            .pricing-amount { font-size: 36px; }
+            .cta-title { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-label">Career Intelligence</div>
+        <h1 class="hero-title">Get Promoted Faster with Data-Driven Career Strategy</h1>
+        <p class="hero-subtitle">Stop guessing where you stand. Track your career progress, identify skill gaps, and build the promotion case your manager can't ignore.</p>
+        <div>
+            <a href="https://buy.stripe.com/your-link-here" class="button-primary">Start Your Free Trial</a>
+            <a href="#features" class="button">See How It Works</a>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <h2 class="problem-title">You're working hard, but are you working on the right things?</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <h3 class="problem-card-title">Promotion criteria unclear</h3>
+                <p class="problem-card-text">You don't know what your manager actually expects for the next level.</p>
+            </div>
+            <div class="problem-card">
+                <h3 class="problem-card-title">Impact not documented</h3>
+                <p class="problem-card-text">Six months of great work forgotten because you didn't write it down.</p>
+            </div>
+            <div class="problem-card">
+                <h3 class="problem-card-title">Skill gaps hidden</h3>
+                <p class="problem-card-text">You're missing critical skills but won't know until promo review.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2 class="section-title">Your Career Command Center</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h3 class="feature-title">Career Progress Tracking</h3>
+                <p class="feature-description">Document your wins, impact, and growth in one organized system.</p>
+                <ul class="feature-list">
+                    <li>Impact logging with metrics</li>
+                    <li>Project timeline visualization</li>
+                    <li>Skills development tracking</li>
+                    <li>1-on-1 conversation history</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h3 class="feature-title">Promotion Readiness Score</h3>
+                <p class="feature-description">AI-powered assessment of your readiness for the next level.</p>
+                <ul class="feature-list">
+                    <li>Level expectations analysis</li>
+                    <li>Gap identification</li>
+                    <li>Actionable improvement plan</li>
+                    <li>Timeline projections</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="feature-title">Skill Gap Analysis</h3>
+                <p class="feature-description">Know exactly what skills you need to develop for promotion.</p>
+                <ul class="feature-list">
+                    <li>Role-specific competencies</li>
+                    <li>Learning resource recommendations</li>
+                    <li>Progress benchmarking</li>
+                    <li>Peer comparison insights</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="social-proof-stat">
+            <div class="stat-value">6 Months</div>
+            <p class="stat-description">Average time to promotion for users who track consistently vs 18 months industry average</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <h2 class="section-title">Choose Your Plan</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <div class="pricing-label">Free</div>
+                <div class="pricing-amount">$0<span style="font-size: 20px; color: #6e6e73;">/mo</span></div>
+                <div class="pricing-period">Forever free</div>
+                <p class="pricing-description">Perfect for getting started with career tracking.</p>
+                <ul class="pricing-features">
+                    <li>Basic impact logging</li>
+                    <li>Simple skill tracking</li>
+                    <li>Manual assessments</li>
+                    <li>Community support</li>
+                </ul>
+                <a href="https://buy.stripe.com/your-link-here" class="button pricing-cta">Start Free</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Most Popular</div>
+                <div class="pricing-label">Pro</div>
+                <div class="pricing-amount">$99<span style="font-size: 20px; color: #6e6e73;">/mo</span></div>
+                <div class="pricing-period">Billed monthly</div>
+                <p class="pricing-description">Full career intelligence for ambitious professionals.</p>
+                <ul class="pricing-features">
+                    <li>AI-powered promotion readiness</li>
+                    <li>Skill gap analysis</li>
+                    <li>Learning recommendations</li>
+                    <li>Timeline projections</li>
+                    <li>1-on-1 prep templates</li>
+                    <li>Export promo packets</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="https://buy.stripe.com/your-link-here" class="button-primary pricing-cta">Start Pro Trial</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-label">Enterprise</div>
+                <div class="pricing-amount">Custom</div>
+                <div class="pricing-period">For teams</div>
+                <p class="pricing-description">Empower your entire team with career development tools.</p>
+                <ul class="pricing-features">
+                    <li>Team dashboards</li>
+                    <li>Manager collaboration</li>
+                    <li>Custom competency models</li>
+                    <li>API access</li>
+                    <li>SSO integration</li>
+                    <li>Dedicated support</li>
+                </ul>
+                <a href="mailto:o@newth.ai" class="button pricing-cta">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2 class="cta-title">Ready to Accelerate Your Career?</h2>
+        <p class="cta-subtitle">Start your free trial today. No credit card required.</p>
+        <a href="https://buy.stripe.com/your-link-here" class="button-light">Start Your Free Trial</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Career Intelligence System by Oliver Newth</p>
+        <p>Built by a Google PM who knows the promotion game</p>
+        <ul class="footer-links">
+            <li><a href="https://n3wth.com">About</a></li>
+            <li><a href="mailto:o@newth.ai">Contact</a></li>
+            <li><a href="https://n3wth.com/privacy">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
