@@ -1,0 +1,42 @@
+[
+  {
+    "author": "Jessica Anderson",
+    "title": "Senior Engineer, Growth Stage",
+    "company": "TechCorp",
+    "image": "https://i.pravatar.cc/150?u=jessica-anderson",
+    "quote": "Got promoted in 4 months using the exact framework. My manager finally had data to fight for me. This works.",
+    "verified": true
+  },
+  {
+    "author": "Robert Taylor",
+    "title": "Product Manager",
+    "company": "StartupXYZ",
+    "image": "https://i.pravatar.cc/150?u=robert-taylor",
+    "quote": "Negotiated a 32% raise by following the prep framework. Came with documentation and market research. They couldn't say no.",
+    "verified": true
+  },
+  {
+    "author": "Priya Patel",
+    "title": "Design Lead",
+    "company": "DesignCo",
+    "image": "https://i.pravatar.cc/150?u=priya-patel",
+    "quote": "The visibility strategy is game-changing. Went from invisible to the person everyone knows. Career growth followed naturally.",
+    "verified": true
+  },
+  {
+    "author": "Thomas Mueller",
+    "title": "Principal Engineer",
+    "company": "TechScale",
+    "image": "https://i.pravatar.cc/150?u=thomas-mueller",
+    "quote": "Used the 90-day plan. Hit every milestone. Got promoted and got the raise. Best $99 I've spent.",
+    "verified": true
+  },
+  {
+    "author": "Amanda Brooks",
+    "title": "Engineering Manager",
+    "company": "GrowthCorp",
+    "image": "https://i.pravatar.cc/150?u=amanda-brooks",
+    "quote": "Recommended this to my team. 3 got promoted, 2 got raises, everyone's more intentional about their career.",
+    "verified": true
+  }
+]

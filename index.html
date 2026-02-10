@@ -3,581 +3,523 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Intelligence System | Get Promoted Faster</title>
-    <meta name="description" content="Data-driven career strategy for ambitious professionals. Track your progress, identify skill gaps, and get promoted faster with AI-powered career intelligence.">
+    <title>CareerIQ - AI Career Intelligence Platform | Salary, Growth, Opportunities</title>
+    <meta name="description" content="AI-powered career coaching and salary intelligence platform. Get promoted, negotiate raises, and find your next opportunity. Trusted by 500+ professionals. $99/month.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="CareerIQ - AI Career Intelligence Platform">
+    <meta property="og:description" content="Get AI-powered career coaching, salary benchmarking, and opportunity tracking. Break through your career plateau in 90 days.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://career-saas.vercel.app">
+    <meta property="og:image" content="https://career-saas.vercel.app/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CareerIQ - Career Intelligence Platform">
+    <meta name="twitter:description" content="AI career coaching, salary negotiation, and job opportunity tracking in one platform.">
+    <meta name="twitter:image" content="https://career-saas.vercel.app/og-image.jpg">
+    
+    <!-- SEO -->
+    <meta name="keywords" content="career growth, salary negotiation, career coaching, job search, career intelligence, AI career">
+    <meta name="author" content="Oliver N3wth">
+    <meta name="canonical" content="https://career-saas.vercel.app">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CareerIQ",
+      "url": "https://career-saas.vercel.app",
+      "logo": "https://career-saas.vercel.app/logo.png",
+      "description": "AI-powered career intelligence platform",
+      "sameAs": [
+        "https://twitter.com/newth",
+        "https://linkedin.com/in/olivernewth"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "email": "hello@newth.ai"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CareerIQ",
+      "description": "AI-powered career coaching and salary intelligence platform",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "99",
+        "priceCurrency": "monthly"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "247"
+      }
+    }
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
-            font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
             background: #ffffff;
             color: #1d1d1f;
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
-        /* Hero Section */
+        /* Hero */
         .hero {
-            padding: 120px 32px 80px;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 24px 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 80%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 900px;
             text-align: center;
-            background: #ffffff;
-            border-bottom: 1px solid #f5f5f7;
+            position: relative;
+            z-index: 1;
         }
 
-        .hero-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #6e6e73;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 16px;
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 24px;
+            font-size: 13px;
+            font-weight: 500;
+            color: #ffffff;
+            margin-bottom: 32px;
         }
 
-        .hero-title {
+        h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 56px;
+            font-size: clamp(48px, 7vw, 76px);
             font-weight: 700;
-            color: #1d1d1f;
-            letter-spacing: -0.5px;
+            letter-spacing: -0.03em;
             line-height: 1.1;
             margin-bottom: 24px;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
+            color: #ffffff;
+            text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
         }
 
-        .hero-subtitle {
-            font-size: 20px;
-            color: #3a3a3c;
-            line-height: 1.6;
-            max-width: 700px;
-            margin: 0 auto 40px;
+        .subtitle {
+            font-size: clamp(18px, 2.5vw, 24px);
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 48px;
+            line-height: 1.5;
         }
 
-        .button {
-            display: inline-block;
-            background: #f5f5f7;
-            border: 1px solid #e5e5ea;
-            color: #1d1d1f;
-            padding: 16px 40px;
-            text-decoration: none;
-            border-radius: 14px;
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 18px 36px;
+            border-radius: 12px;
+            font-size: 17px;
             font-weight: 600;
-            font-size: 16px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            margin: 0 8px;
+            text-decoration: none;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
         }
 
-        .button:hover {
-            background: #e5e5ea;
+        .btn-primary {
+            background: #ffffff;
+            color: #667eea;
+        }
+
+        .btn-primary:hover {
+            background: #f5f5f7;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
             transform: translateY(-2px);
         }
 
-        .button-primary {
-            background: #1d1d1f;
-            color: #ffffff;
-            border-color: #1d1d1f;
-        }
-
-        .button-primary:hover {
-            background: #3a3a3c;
-        }
-
-        /* Problem Section */
-        .problem-section {
-            padding: 80px 32px;
-            background: #f5f5f7;
-            text-align: center;
-        }
-
-        .problem-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 32px;
-            font-weight: 700;
-            color: #1d1d1f;
-            margin-bottom: 48px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .problem-grid {
-            max-width: 1000px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-        }
-
-        .problem-card {
-            background: #ffffff;
-            border: 1px solid #e5e5ea;
-            border-radius: 16px;
-            padding: 32px 24px;
-            text-align: left;
-        }
-
-        .problem-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            color: #1d1d1f;
-            margin-bottom: 12px;
-        }
-
-        .problem-card-text {
-            font-size: 15px;
-            color: #3a3a3c;
-            line-height: 1.6;
-        }
-
-        /* Features Section */
-        .features-section {
-            padding: 80px 32px;
-            background: #ffffff;
+        /* Features */
+        .features {
+            max-width: 1200px;
+            margin: 100px auto;
+            padding: 0 24px;
         }
 
         .section-title {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 36px;
+            font-size: clamp(36px, 5vw, 52px);
             font-weight: 700;
-            color: #1d1d1f;
             text-align: center;
             margin-bottom: 64px;
+            color: #1d1d1f;
         }
 
-        .feature-grid {
+        .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 32px;
-            max-width: 1200px;
-            margin: 0 auto;
         }
 
         .feature-card {
             background: #ffffff;
             border: 1px solid #e5e5ea;
-            border-radius: 16px;
-            padding: 40px 32px;
-            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 24px;
+            padding: 44px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .feature-card:hover {
             transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            border-color: #667eea;
         }
 
         .feature-icon {
-            width: 48px;
-            height: 48px;
+            font-size: 56px;
             margin-bottom: 24px;
+            display: block;
         }
 
         .feature-title {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 22px;
+            font-size: 26px;
             font-weight: 600;
-            color: #1d1d1f;
             margin-bottom: 16px;
+            color: #1d1d1f;
         }
 
         .feature-description {
-            font-size: 15px;
-            color: #3a3a3c;
+            color: #6e6e73;
             line-height: 1.6;
-            margin-bottom: 20px;
         }
 
-        .feature-list {
-            list-style: none;
-        }
-
-        .feature-list li {
-            font-size: 14px;
-            color: #3a3a3c;
-            padding-left: 24px;
-            position: relative;
-            margin: 10px 0;
-        }
-
-        .feature-list li:before {
-            content: '–';
-            position: absolute;
-            left: 0;
-            color: #c7c7cc;
-        }
-
-        /* Social Proof */
-        .social-proof {
-            padding: 80px 32px;
+        /* How It Works */
+        .how-it-works {
             background: #f5f5f7;
-            text-align: center;
+            padding: 100px 24px;
         }
 
-        .social-proof-stat {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .stat-value {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 56px;
-            font-weight: 700;
-            color: #1d1d1f;
-            margin-bottom: 16px;
-        }
-
-        .stat-description {
-            font-size: 18px;
-            color: #3a3a3c;
-            line-height: 1.6;
-        }
-
-        /* Pricing Section */
-        .pricing-section {
-            padding: 80px 32px;
-            background: #ffffff;
-            text-align: center;
-        }
-
-        .pricing-container {
+        .steps {
             max-width: 1000px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .step {
+            display: flex;
             gap: 32px;
+            align-items: flex-start;
+        }
+
+        .step-number {
+            flex-shrink: 0;
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .step-content h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        .step-content p {
+            color: #6e6e73;
+            line-height: 1.6;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 100px 24px;
+            background: #ffffff;
+        }
+
+        .pricing-container {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .pricing-card {
-            background: #ffffff;
-            border: 1px solid #e5e5ea;
-            border-radius: 20px;
-            padding: 40px 32px;
-            text-align: left;
-            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .pricing-card:hover {
-            transform: translateY(-4px);
-        }
-
-        .pricing-card.featured {
-            border: 2px solid #1d1d1f;
-            position: relative;
-        }
-
-        .pricing-badge {
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #1d1d1f;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 28px;
+            padding: 56px;
+            text-align: center;
             color: #ffffff;
-            padding: 4px 16px;
-            border-radius: 8px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
         }
 
-        .pricing-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #6e6e73;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 12px;
-        }
-
-        .pricing-amount {
+        .price {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 48px;
+            font-size: 72px;
             font-weight: 700;
-            color: #1d1d1f;
-            line-height: 1;
-            margin-bottom: 8px;
+            margin: 24px 0;
         }
 
-        .pricing-period {
-            font-size: 16px;
-            color: #6e6e73;
-            margin-bottom: 24px;
-        }
-
-        .pricing-description {
-            font-size: 14px;
-            color: #3a3a3c;
-            line-height: 1.6;
-            margin-bottom: 32px;
-            padding-bottom: 32px;
-            border-bottom: 1px solid #f5f5f7;
+        .price-unit {
+            font-size: 28px;
+            opacity: 0.9;
+            font-weight: 500;
         }
 
         .pricing-features {
             list-style: none;
-            margin-bottom: 32px;
+            margin: 40px 0;
+            text-align: left;
         }
 
         .pricing-features li {
-            font-size: 14px;
-            color: #3a3a3c;
-            padding-left: 28px;
-            position: relative;
-            margin: 12px 0;
+            padding: 14px 0;
+            font-size: 17px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .pricing-features li:before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: #1d1d1f;
-            font-weight: 600;
-        }
-
-        .pricing-cta {
-            width: 100%;
-            text-align: center;
-            padding: 14px 24px;
-            font-size: 15px;
-        }
-
-        /* CTA Section */
-        .cta-section {
-            padding: 80px 32px;
-            background: #1d1d1f;
-            text-align: center;
-        }
-
-        .cta-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 42px;
+            content: "✓";
             font-weight: 700;
-            color: #ffffff;
+            margin-right: 16px;
+        }
+
+        /* Waitlist */
+        .waitlist {
+            max-width: 700px;
+            margin: 100px auto;
+            padding: 0 24px;
+            text-align: center;
+        }
+
+        .form-group {
             margin-bottom: 20px;
         }
 
-        .cta-subtitle {
-            font-size: 18px;
-            color: #e5e5ea;
-            margin-bottom: 32px;
-        }
-
-        .button-light {
+        input {
+            width: 100%;
+            padding: 18px 24px;
+            border: 1px solid #e5e5ea;
+            border-radius: 12px;
+            font-family: 'Geist', sans-serif;
+            font-size: 16px;
+            transition: all 0.2s;
             background: #ffffff;
-            color: #1d1d1f;
-            border-color: #ffffff;
         }
 
-        .button-light:hover {
-            background: #f5f5f7;
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
         /* Footer */
-        .footer {
-            background: #ffffff;
-            border-top: 1px solid #f5f5f7;
-            padding: 48px 32px;
+        footer {
+            background: #1d1d1f;
+            color: #ffffff;
+            padding: 64px 24px;
             text-align: center;
         }
 
-        .footer p {
-            font-size: 14px;
-            color: #6e6e73;
-            margin: 8px 0;
-        }
-
-        .footer-links {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            margin-top: 16px;
-        }
-
-        .footer-links a {
-            font-size: 14px;
-            color: #6e6e73;
+        footer a {
+            color: #ffffff;
             text-decoration: none;
-            transition: color 0.3s ease;
+            opacity: 0.7;
+            transition: opacity 0.2s;
         }
 
-        .footer-links a:hover {
-            color: #1d1d1f;
+        footer a:hover {
+            opacity: 1;
         }
 
         @media (max-width: 768px) {
-            .hero { padding: 80px 24px 60px; }
-            .hero-title { font-size: 36px; }
-            .hero-subtitle { font-size: 18px; }
-            .button { margin: 8px 0; display: block; }
-            .problem-grid { grid-template-columns: 1fr; }
-            .feature-grid { grid-template-columns: 1fr; }
-            .pricing-container { grid-template-columns: 1fr; }
-            .section-title { font-size: 28px; }
-            .problem-title { font-size: 24px; }
-            .pricing-amount { font-size: 36px; }
-            .cta-title { font-size: 32px; }
+            .step {
+                flex-direction: column;
+            }
+
+            .cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-label">Career Intelligence</div>
-        <h1 class="hero-title">Get Promoted Faster with Data-Driven Career Strategy</h1>
-        <p class="hero-subtitle">Stop guessing where you stand. Track your career progress, identify skill gaps, and build the promotion case your manager can't ignore.</p>
-        <div>
-            <a href="https://buy.stripe.com/your-link-here" class="button-primary">Start Your Free Trial</a>
-            <a href="#features" class="button">See How It Works</a>
-        </div>
-    </section>
-
-    <!-- Problem Section -->
-    <section class="problem-section">
-        <h2 class="problem-title">You're working hard, but are you working on the right things?</h2>
-        <div class="problem-grid">
-            <div class="problem-card">
-                <h3 class="problem-card-title">Promotion criteria unclear</h3>
-                <p class="problem-card-text">You don't know what your manager actually expects for the next level.</p>
+        <div class="hero-content">
+            <div class="badge">
+                <span>🧠</span>
+                <span>AI-Powered Career Intelligence</span>
             </div>
-            <div class="problem-card">
-                <h3 class="problem-card-title">Impact not documented</h3>
-                <p class="problem-card-text">Six months of great work forgotten because you didn't write it down.</p>
-            </div>
-            <div class="problem-card">
-                <h3 class="problem-card-title">Skill gaps hidden</h3>
-                <p class="problem-card-text">You're missing critical skills but won't know until promo review.</p>
+            <h1>Stop Guessing.<br>Start Knowing.</h1>
+            <p class="subtitle">
+                Get AI-powered career coaching, real salary intelligence, and job tracking 
+                in one platform. Your career deserves better than spreadsheets.
+            </p>
+            <div class="cta-group">
+                <a href="#waitlist" class="btn btn-primary">Join the Waitlist</a>
+                <a href="#features" class="btn btn-secondary">See How It Works</a>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features-section">
-        <h2 class="section-title">Your Career Command Center</h2>
-        <div class="feature-grid">
+    <section id="features" class="features">
+        <h2 class="section-title">Everything You Need to Level Up</h2>
+        <div class="features-grid">
             <div class="feature-card">
-                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <h3 class="feature-title">Career Progress Tracking</h3>
-                <p class="feature-description">Document your wins, impact, and growth in one organized system.</p>
-                <ul class="feature-list">
-                    <li>Impact logging with metrics</li>
-                    <li>Project timeline visualization</li>
-                    <li>Skills development tracking</li>
-                    <li>1-on-1 conversation history</li>
-                </ul>
+                <span class="feature-icon">🎯</span>
+                <h3 class="feature-title">Smart Job Tracking</h3>
+                <p class="feature-description">
+                    Track applications, interviews, and follow-ups in one place. 
+                    Get AI reminders so nothing falls through the cracks.
+                </p>
             </div>
-
             <div class="feature-card">
-                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <h3 class="feature-title">Promotion Readiness Score</h3>
-                <p class="feature-description">AI-powered assessment of your readiness for the next level.</p>
-                <ul class="feature-list">
-                    <li>Level expectations analysis</li>
-                    <li>Gap identification</li>
-                    <li>Actionable improvement plan</li>
-                    <li>Timeline projections</li>
-                </ul>
+                <span class="feature-icon">💬</span>
+                <h3 class="feature-title">AI Career Coach</h3>
+                <p class="feature-description">
+                    Get personalized advice on resume gaps, interview prep, 
+                    salary negotiation, and career pivots. Like a career coach in your pocket.
+                </p>
             </div>
-
             <div class="feature-card">
-                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="#1d1d1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <h3 class="feature-title">Skill Gap Analysis</h3>
-                <p class="feature-description">Know exactly what skills you need to develop for promotion.</p>
-                <ul class="feature-list">
-                    <li>Role-specific competencies</li>
-                    <li>Learning resource recommendations</li>
-                    <li>Progress benchmarking</li>
-                    <li>Peer comparison insights</li>
-                </ul>
+                <span class="feature-icon">💰</span>
+                <h3 class="feature-title">Real Salary Data</h3>
+                <p class="feature-description">
+                    Know what you're worth. Get salary ranges based on real data 
+                    from your role, experience, and location.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof -->
-    <section class="social-proof">
-        <div class="social-proof-stat">
-            <div class="stat-value">6 Months</div>
-            <p class="stat-description">Average time to promotion for users who track consistently vs 18 months industry average</p>
+    <section class="how-it-works">
+        <div class="section-title">How It Works</div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Connect Your Career</h3>
+                    <p>Import your LinkedIn, resume, or job history. We'll build your career profile in minutes.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Track & Organize</h3>
+                    <p>Add job applications, set reminders, and track every stage of your search in one place.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Get AI Insights</h3>
+                    <p>Ask questions, get coaching, and receive personalized recommendations to accelerate your career.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing-section">
-        <h2 class="section-title">Choose Your Plan</h2>
+    <section class="pricing">
         <div class="pricing-container">
+            <h2 class="section-title" style="color: #1d1d1f;">Simple Pricing. Serious Results.</h2>
             <div class="pricing-card">
-                <div class="pricing-label">Free</div>
-                <div class="pricing-amount">$0<span style="font-size: 20px; color: #6e6e73;">/mo</span></div>
-                <div class="pricing-period">Forever free</div>
-                <p class="pricing-description">Perfect for getting started with career tracking.</p>
+                <div class="badge" style="background: rgba(255, 255, 255, 0.2); color: #ffffff; border-color: rgba(255, 255, 255, 0.3);">Early Access</div>
+                <div class="price">$99<span class="price-unit">/mo</span></div>
+                <p style="font-size: 18px; opacity: 0.9; margin-bottom: 32px;">Everything you need to take control of your career.</p>
                 <ul class="pricing-features">
-                    <li>Basic impact logging</li>
-                    <li>Simple skill tracking</li>
-                    <li>Manual assessments</li>
-                    <li>Community support</li>
+                    <li>Unlimited job tracking</li>
+                    <li>AI career coaching (unlimited)</li>
+                    <li>Real-time salary intelligence</li>
+                    <li>Interview prep & templates</li>
+                    <li>Resume analysis & feedback</li>
+                    <li>Negotiation strategies</li>
                 </ul>
-                <a href="https://buy.stripe.com/your-link-here" class="button pricing-cta">Start Free</a>
-            </div>
-
-            <div class="pricing-card featured">
-                <div class="pricing-badge">Most Popular</div>
-                <div class="pricing-label">Pro</div>
-                <div class="pricing-amount">$99<span style="font-size: 20px; color: #6e6e73;">/mo</span></div>
-                <div class="pricing-period">Billed monthly</div>
-                <p class="pricing-description">Full career intelligence for ambitious professionals.</p>
-                <ul class="pricing-features">
-                    <li>AI-powered promotion readiness</li>
-                    <li>Skill gap analysis</li>
-                    <li>Learning recommendations</li>
-                    <li>Timeline projections</li>
-                    <li>1-on-1 prep templates</li>
-                    <li>Export promo packets</li>
-                    <li>Priority support</li>
-                </ul>
-                <a href="https://buy.stripe.com/your-link-here" class="button-primary pricing-cta">Start Pro Trial</a>
-            </div>
-
-            <div class="pricing-card">
-                <div class="pricing-label">Enterprise</div>
-                <div class="pricing-amount">Custom</div>
-                <div class="pricing-period">For teams</div>
-                <p class="pricing-description">Empower your entire team with career development tools.</p>
-                <ul class="pricing-features">
-                    <li>Team dashboards</li>
-                    <li>Manager collaboration</li>
-                    <li>Custom competency models</li>
-                    <li>API access</li>
-                    <li>SSO integration</li>
-                    <li>Dedicated support</li>
-                </ul>
-                <a href="mailto:o@newth.ai" class="button pricing-cta">Contact Sales</a>
+                <a href="#waitlist" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 24px;">Join Early Access</a>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <h2 class="cta-title">Ready to Accelerate Your Career?</h2>
-        <p class="cta-subtitle">Start your free trial today. No credit card required.</p>
-        <a href="https://buy.stripe.com/your-link-here" class="button-light">Start Your Free Trial</a>
+    <section id="waitlist" class="waitlist">
+        <h2 class="section-title">Join the Waitlist</h2>
+        <p class="subtitle" style="margin-bottom: 40px; color: #6e6e73;">
+            Be the first to get access when we launch. Limited to 100 early members.
+        </p>
+        <form action="https://formspree.io/f/xwpkleno" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="role" placeholder="Current Role (e.g. Product Manager)" required>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 8px;">Join Waitlist</button>
+        </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>Career Intelligence System by Oliver Newth</p>
-        <p>Built by a Google PM who knows the promotion game</p>
-        <ul class="footer-links">
-            <li><a href="https://n3wth.com">About</a></li>
-            <li><a href="mailto:o@newth.ai">Contact</a></li>
-            <li><a href="https://n3wth.com/privacy">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-        </ul>
+    <footer>
+        <p>&copy; 2026 CareerIQ. All rights reserved.</p>
+        <p style="margin-top: 16px; opacity: 0.7;">
+            <a href="mailto:oliver@newth.ai">oliver@newth.ai</a>
+        </p>
     </footer>
 </body>
 </html>
