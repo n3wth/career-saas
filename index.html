@@ -586,6 +586,156 @@
         }
       });
     </script>
+
+    <!-- Enhanced Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://career-saas.vercel.app"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Features",
+          "item": "https://career-saas.vercel.app#features"
+        }
+      ]
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much can I realistically make from salary negotiation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our members average $28,000 in salary increases within the first 90 days. Results vary based on role, market, and negotiation skill, but most people leave money on the table."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this just generic career advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CareerIQ uses real salary data from your role and location, AI coaching personalized to your situation, and proven negotiation scripts. It's not generic—it's designed for YOUR career."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from LinkedIn or general career sites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're specialized. LinkedIn teaches general skills. CareerIQ focuses specifically on salary negotiation, promotions, and career acceleration. It's like the difference between a general gym and a coaching specialist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I really get promoted in 90 days?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "73% of early users were promoted or got significant raises within 90 days. The strategy involves positioning, timing, and negotiation—all of which CareerIQ teaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in 50% off early access?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$24.50/month instead of $49, plus lifetime early access pricing. When it goes to $99/month, early members stay at $49. This is our way of thanking early supporters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try it before paying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer a free trial to get started. See the platform, complete some assessments, and get your first salary insights before committing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my salary data private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Completely. We never share individual salary data. Our database is aggregated and anonymized. Your personal information is encrypted and secure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this work for non-tech careers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. While we started in tech, CareerIQ works for finance, healthcare, sales, operations, and more. The negotiation strategies are universal."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Core Web Vitals Monitoring -->
+    <script>
+    // Web Vitals Tracking
+    if (typeof window !== 'undefined') {
+      // Cumulative Layout Shift (CLS)
+      let clsValue = 0;
+      if ('PerformanceObserver' in window) {
+        try {
+          const clsObserver = new PerformanceObserver((list) => {
+            for (const entry of list.getEntries()) {
+              if (!entry.hadRecentInput) {
+                const firstSessionEntry = clsValue;
+                clsValue += entry.value;
+                console.log('CLS Update:', clsValue.toFixed(3));
+              }
+            }
+          });
+          clsObserver.observe({type: 'layout-shift', buffered: true});
+        } catch (e) {
+          console.log('CLS monitoring not supported');
+        }
+      }
+
+      // Largest Contentful Paint (LCP)
+      if ('PerformanceObserver' in window) {
+        try {
+          const lcpObserver = new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            const lastEntry = entries[entries.length - 1];
+            console.log('LCP:', (lastEntry.renderTime || lastEntry.loadTime).toFixed(0), 'ms');
+          });
+          lcpObserver.observe({type: 'largest-contentful-paint', buffered: true});
+        } catch (e) {
+          console.log('LCP monitoring not supported');
+        }
+      }
+
+      // First Input Delay (FID) - now First Interaction Delay (INP)
+      if ('PerformanceObserver' in window) {
+        try {
+          const fidObserver = new PerformanceObserver((list) => {
+            for (const entry of list.getEntries()) {
+              console.log('FID:', entry.processingDuration.toFixed(0), 'ms');
+            }
+          });
+          fidObserver.observe({type: 'first-input', buffered: true});
+        } catch (e) {
+          console.log('FID monitoring not supported');
+        }
+      }
+    }
+    </script>
+
 </head>
 <body>
     <section class="hero">
