@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Main Pages Sitemap -->
+  <sitemap>
+    <loc>https://career-saas.vercel.app/sitemap-pages.xml</loc>
+    <lastmod>2026-02-11</lastmod>
+  </sitemap>
+
+  <!-- Blog & Articles Sitemap -->
+  <sitemap>
+    <loc>https://career-saas.vercel.app/sitemap-blog.xml</loc>
+    <lastmod>2026-02-11</lastmod>
+  </sitemap>
+
+  <!-- Resources & Guides Sitemap -->
+  <sitemap>
+    <loc>https://career-saas.vercel.app/sitemap-resources.xml</loc>
+    <lastmod>2026-02-11</lastmod>
+  </sitemap>
+
+</sitemapindex>
