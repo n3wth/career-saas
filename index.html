@@ -393,6 +393,30 @@
             }
         }
     </style>
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CAREER456"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CAREER456', {
+        'page_path': window.location.pathname,
+        'send_page_view': true
+      });
+      
+      document.addEventListener('submit', function(e) {
+        if (e.target.tagName === 'FORM') {
+          gtag('event', 'form_submission', {'form_name': 'trial_signup'});
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (e.target.textContent.includes('Trial') || e.target.textContent.includes('Start') || e.target.textContent.includes('Join')) {
+          gtag('event', 'cta_click', {'button_text': e.target.textContent});
+        }
+      });
+    </script>
 </head>
 <body>
     <section class="hero">
