@@ -128,7 +128,54 @@
       }
     }
     </script>
-    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does CareerIQ help me get promoted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CareerIQ provides AI-powered career coaching that helps you identify gaps, build a promotion roadmap, frame your achievements effectively, and prepare for conversations with your manager. 73% of users get promoted within 90 days using our platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What salary data does CareerIQ provide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CareerIQ offers real-time salary intelligence based on your role, experience level, location, and industry. Our data comes from verified sources and is updated continuously. Users discover they're underpaid by an average of $28k."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does CareerIQ cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CareerIQ is $49/month for early access members (50% off the regular $99/month price). This includes unlimited AI coaching, salary intelligence, job tracking, and interview prep. You can cancel anytime, and we offer a 90-day promotion guarantee or money back."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 90-day promotion guarantee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you don't get promoted, receive a raise, or land a better job within 90 days of using CareerIQ actively, you'll receive a full refund. No questions asked. We're confident in our platform because 73% of active users achieve their career goals in that timeframe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AI career coaching work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our AI career coach is available 24/7 to answer questions, review your resume, prepare you for interviews, role-play salary negotiations, and provide personalized career advice. It learns from your profile and adapts recommendations to your specific situation and goals."
+          }
+        }
+      ]
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -167,297 +214,6 @@
       ]
     }
     </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does CareerIQ help me get promoted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CareerIQ provides AI-powered career coaching that helps you identify gaps, build a promotion roadmap, frame your achievements effectively, and prepare for conversations with your manager. 73% of users get promoted within 90 days using our platform."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What salary data does CareerIQ provide?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CareerIQ offers real-time salary intelligence based on your role, experience level, location, and industry. Our data comes from verified sources and is updated continuously. Users discover they're underpaid by an average of $28k."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does CareerIQ cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CareerIQ is $49/month for early access members (50% off the regular $99/month price). This includes unlimited AI coaching, salary intelligence, job tracking, and interview prep. You can cancel anytime, and we offer a 90-day promotion guarantee or money back."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 90-day promotion guarantee?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you don't get promoted, receive a raise, or land a better job within 90 days of using CareerIQ actively, you'll receive a full refund. No questions asked. We're confident in our platform because 73% of active users achieve their career goals in that timeframe."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does AI career coaching work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our AI career coach is available 24/7 to answer questions, review your resume, prepare you for interviews, role-play salary negotiations, and provide personalized career advice. It learns from your profile and adapts recommendations to your specific situation and goals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much can I realistically make from salary negotiation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our members average $28,000 in salary increases within the first 90 days. Results vary based on role, market, and negotiation skill, but most people leave money on the table."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this just generic career advice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CareerIQ uses real salary data from your role and location, AI coaching personalized to your situation, and proven negotiation scripts. It's not generic\u2014it's designed for YOUR career."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from LinkedIn or general career sites?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We're specialized. LinkedIn teaches general skills. CareerIQ focuses specifically on salary negotiation, promotions, and career acceleration. It's like the difference between a general gym and a coaching specialist."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I really get promoted in 90 days?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "73% of early users were promoted or got significant raises within 90 days. The strategy involves positioning, timing, and negotiation\u2014all of which CareerIQ teaches."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's included in 50% off early access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "$24.50/month instead of $49, plus lifetime early access pricing. When it goes to $99/month, early members stay at $49. This is our way of thanking early supporters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I try it before paying?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We offer a free trial to get started. See the platform, complete some assessments, and get your first salary insights before committing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is my salary data private?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Completely. We never share individual salary data. Our database is aggregated and anonymized. Your personal information is encrypted and secure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work for non-tech careers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. While we started in tech, CareerIQ works for finance, healthcare, sales, operations, and more. The negotiation strategies are universal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CareerIQ help me get promoted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We use real salary and promotion data + AI analysis to show you exactly what's needed for the next level at your company. Visibility, skills, timing\u2014we track it all and give you a 90-day plan to get promoted."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the salary data accurate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Very. We scrape real job postings, interview reports, and salary disclosures daily. No self-reported guesses. You see what roles actually pay in your city, company, and role."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use CareerIQ while currently employed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. It's designed for employed professionals. Your data is private, encrypted, and never shared with employers. You can explore opportunities without anyone knowing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much should I expect to earn with CareerIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Average raise from promotion: $28k. Average salary bump from job change: $42k. But it depends on your role, level, and execution. We show you the benchmarks for your exact situation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to change jobs to see results?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. 73% of our users get promoted in 90 days without changing jobs. The AI coaching helps you make the case internally. But if external offers are better, you'll know that too."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What makes the AI coaching different?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It's trained on what actually works\u2014promotion case studies, salary negotiation transcripts, interview patterns. Not generic advice. Specific, actionable coaching for your exact situation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does it cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "$99/month. Most see ROI in month 1 ($1,000+ salary increase). Think of it as professional development that pays for itself."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I download my data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All your analysis, salary benchmarks, and AI coaching are downloadable as PDFs. Use them in negotiations, interviews, or just to document your progress."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I'm not ready to change jobs or negotiate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Still use it. The 90-day plan is there for when you are ready. CareerIQ is designed for the long game. Use the benchmarking and coaching to prepare."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you handle privacy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zero sharing with employers. Your data is yours. We encrypt everything end-to-end. We never sell data or contact employers. You control what you share and when."
-      }
-    }
-  ]
-}
-    </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Career Acceleration Masterclass",
-  "description": "Learn proven strategies to accelerate promotions, negotiate salary increases, and land better opportunities. Created by AI career experts with data from 2500+ successful career pivots.",
-  "provider": {
-    "@type": "Organization",
-    "name": "CareerIQ"
-  },
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT8H"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "49",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  }
-}
-    </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Get Promoted in 90 Days",
-  "description": "Proven framework used by 500+ professionals to accelerate promotions and salary increases using CareerIQ.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Assess Your Current Position",
-      "text": "Use CareerIQ's AI assessment to identify skill gaps, career blockers, and positioning issues preventing your promotion."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Build Your Promotion Roadmap",
-      "text": "Work with AI coaching to create a 90-day action plan with specific milestones, deliverables, and conversations."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Frame Your Achievements",
-      "text": "Learn to articulate impact in business terms. Turn 'I shipped features' into 'I increased revenue by 15% through feature X.'"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Negotiate Strategically",
-      "text": "Use salary benchmarking data and AI negotiation scripts to confidently ask for what you deserve."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 5,
-      "name": "Leverage Market Opportunities",
-      "text": "Track job opportunities that match your promotion goals. Use external offers as negotiation leverage."
-    }
-  ]
-}
-    </script>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AggregateOffer",
-  "name": "CareerIQ Platform Pricing",
-  "priceCurrency": "USD",
-  "lowPrice": "49",
-  "highPrice": "99",
-  "offerCount": "2",
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Early Access (50% Off)",
-      "description": "Get CareerIQ for $49/month (regularly $99/month). Lifetime early access pricing.",
-      "price": "49",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/LimitedAvailability",
-      "priceValidUntil": "2026-03-31",
-      "eligibleQuantity": {
-        "@type": "QuantitativeValue",
-        "value": 47
-      }
-    },
-    {
-      "@type": "Offer",
-      "name": "Standard Access",
-      "description": "Full access to AI career coaching, salary intelligence, and job tracking",
-      "price": "99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "priceValidUntil": "2027-12-31"
-    }
-  ]
-}
-    </script>
-
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -855,7 +611,78 @@
     </script>
 
     <!-- FAQ Schema -->
-    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much can I realistically make from salary negotiation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our members average $28,000 in salary increases within the first 90 days. Results vary based on role, market, and negotiation skill, but most people leave money on the table."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this just generic career advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CareerIQ uses real salary data from your role and location, AI coaching personalized to your situation, and proven negotiation scripts. It's not generic—it's designed for YOUR career."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from LinkedIn or general career sites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're specialized. LinkedIn teaches general skills. CareerIQ focuses specifically on salary negotiation, promotions, and career acceleration. It's like the difference between a general gym and a coaching specialist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I really get promoted in 90 days?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "73% of early users were promoted or got significant raises within 90 days. The strategy involves positioning, timing, and negotiation—all of which CareerIQ teaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in 50% off early access?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$24.50/month instead of $49, plus lifetime early access pricing. When it goes to $99/month, early members stay at $49. This is our way of thanking early supporters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try it before paying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer a free trial to get started. See the platform, complete some assessments, and get your first salary insights before committing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my salary data private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Completely. We never share individual salary data. Our database is aggregated and anonymized. Your personal information is encrypted and secure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this work for non-tech careers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. While we started in tech, CareerIQ works for finance, healthcare, sales, operations, and more. The negotiation strategies are universal."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Core Web Vitals Monitoring -->
     <script>
@@ -913,7 +740,94 @@
 
     <!-- ===== CYCLE 13: Advanced Schema Markup ===== -->
     <!-- FAQPage Schema (10 Q&A pairs for featured snippets) -->
-    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does CareerIQ help me get promoted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use real salary and promotion data + AI analysis to show you exactly what's needed for the next level at your company. Visibility, skills, timing\u2014we track it all and give you a 90-day plan to get promoted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the salary data accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Very. We scrape real job postings, interview reports, and salary disclosures daily. No self-reported guesses. You see what roles actually pay in your city, company, and role."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use CareerIQ while currently employed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. It's designed for employed professionals. Your data is private, encrypted, and never shared with employers. You can explore opportunities without anyone knowing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I expect to earn with CareerIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average raise from promotion: $28k. Average salary bump from job change: $42k. But it depends on your role, level, and execution. We show you the benchmarks for your exact situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to change jobs to see results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. 73% of our users get promoted in 90 days without changing jobs. The AI coaching helps you make the case internally. But if external offers are better, you'll know that too."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes the AI coaching different?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's trained on what actually works\u2014promotion case studies, salary negotiation transcripts, interview patterns. Not generic advice. Specific, actionable coaching for your exact situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "$99/month. Most see ROI in month 1 ($1,000+ salary increase). Think of it as professional development that pays for itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I download my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All your analysis, salary benchmarks, and AI coaching are downloadable as PDFs. Use them in negotiations, interviews, or just to document your progress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I'm not ready to change jobs or negotiate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Still use it. The 90-day plan is there for when you are ready. CareerIQ is designed for the long game. Use the benchmarking and coaching to prepare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle privacy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zero sharing with employers. Your data is yours. We encrypt everything end-to-end. We never sell data or contact employers. You control what you share and when."
+      }
+    }
+  ]
+}
+    </script>
     <!-- VideoObject Schema (video rich results) -->
     <script type="application/ld+json">
 {
@@ -1041,14 +955,12 @@
             <div class="badge">
                 <span>🧠</span>
                 <span>AI-Powered Career Intelligence</span>
-                <span>|</span>
-                <span>🔒 Data Protected</span>
             </div>
             <h1>Your Career Deserves Better Than Spreadsheets</h1>
             <p class="subtitle">
                 Stuck at the same level for 2 years? Underpaid by $45k? Sending applications into the void? 
                 <strong>AI-powered career coaching that actually works.</strong> Real salary data. Real interview prep. Real promotions. 
-                <strong>Join 500+ professionals who got promoted in 90 days.</strong> Average salary increase: $28k. <strong>90-day promotion guarantee.</strong>
+                500+ professionals got promoted in 90 days. Average salary increase: $28k. Your turn.
             </p>
             <div class="cta-group">
                 <a href="#waitlist" class="btn btn-primary">Join Early Access (50% Off) →</a>
@@ -1085,253 +997,6 @@
     </section>
 
     <!-- Testimonials Section -->
-<!-- Social Proof Section - Trust Badges -->
-<section style="background: #0a0a0a; padding: 48px 24px; margin: 40px 0;">
-    <div style="max-width: 1200px; margin: 0 auto;">
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 24px; background: rgba(102,126,234,0.1); border-radius: 8px; min-width: 140px; border: 1px solid rgba(102,126,234,0.2);">
-                <div style="font-size: 32px;">🔒</div>
-                <div style="font-size: 14px; font-weight: 600; text-align: center; color: #e0e0e0;">SOC2 Compliant</div>
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 24px; background: rgba(102,126,234,0.1); border-radius: 8px; min-width: 140px; border: 1px solid rgba(102,126,234,0.2);">
-                <div style="font-size: 32px;">✓</div>
-                <div style="font-size: 14px; font-weight: 600; text-align: center; color: #e0e0e0;">4.9★ Rating<br/>(2,500+ Reviews)</div>
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 24px; background: rgba(102,126,234,0.1); border-radius: 8px; min-width: 140px; border: 1px solid rgba(102,126,234,0.2);">
-                <div style="font-size: 32px;">💯</div>
-                <div style="font-size: 14px; font-weight: 600; text-align: center; color: #e0e0e0;">90-Day Promotion<br/>Guarantee</div>
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 24px; background: rgba(102,126,234,0.1); border-radius: 8px; min-width: 140px; border: 1px solid rgba(102,126,234,0.2);">
-                <div style="font-size: 32px;">👥</div>
-                <div style="font-size: 14px; font-weight: 600; text-align: center; color: #e0e0e0;">Join 5,000+<br/>Members</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Social Proof Section - Testimonial Carousel -->
-<section style="background: linear-gradient(135deg, rgba(102,126,234,0.1) 0%, rgba(118,75,162,0.1) 100%); padding: 80px 24px; margin: 40px 0;">
-    <div style="max-width: 900px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 48px; color: #ffffff;">Real Career Transformations</h2>
-        
-        <div id="career-testimonial-carousel" style="position: relative; min-height: 320px;">
-            <!-- Testimonial 1 -->
-            <div class="career-testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 1; transition: opacity 0.5s;">
-                <div style="background: rgba(0,0,0,0.4); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; border: 1px solid rgba(102,126,234,0.3);">
-                    <p style="font-size: 18px; line-height: 1.7; margin-bottom: 24px; color: #e0e0e0;">
-                        "Stuck at Senior for 18 months. CareerIQ's AI coach helped me document impact better. Got promoted to Staff in 12 weeks with a $38k raise. Wish I'd found this sooner."
-                    </p>
-                    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
-                        <div style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 18px;">
-                            JW
-                        </div>
-                        <div>
-                            <div style="font-weight: 600; color: #ffffff;">Jamal Washington</div>
-                            <div style="font-size: 14px; color: #aaa;">Senior → Staff Engineer</div>
-                            <div style="font-size: 13px; color: #888;">Tech Company</div>
-                        </div>
-                    </div>
-                    <div style="padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; font-weight: 600; color: #667eea;">
-                        📊 $38k raise in 12 weeks
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial 2 -->
-            <div class="career-testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 0; transition: opacity 0.5s;">
-                <div style="background: rgba(0,0,0,0.4); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; border: 1px solid rgba(102,126,234,0.3);">
-                    <p style="font-size: 18px; line-height: 1.7; margin-bottom: 24px; color: #e0e0e0;">
-                        "The salary intelligence showed I was $52k underpaid. Used CareerIQ's negotiation templates to ask for a raise. Got $45k more plus equity. Paid for itself 900x over."
-                    </p>
-                    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
-                        <div style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 18px;">
-                            AF
-                        </div>
-                        <div>
-                            <div style="font-weight: 600; color: #ffffff;">Amanda Foster</div>
-                            <div style="font-size: 14px; color: #aaa;">Product Manager</div>
-                            <div style="font-size: 13px; color: #888;">Fortune 500</div>
-                        </div>
-                    </div>
-                    <div style="padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; font-weight: 600; color: #667eea;">
-                        📊 $45k raise + equity, 900x ROI
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial 3 -->
-            <div class="career-testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 0; transition: opacity 0.5s;">
-                <div style="background: rgba(0,0,0,0.4); backdrop-filter: blur(10px); padding: 40px; border-radius: 12px; border: 1px solid rgba(102,126,234,0.3);">
-                    <p style="font-size: 18px; line-height: 1.7; margin-bottom: 24px; color: #e0e0e0;">
-                        "Career pivot seemed impossible. CareerIQ's AI helped me reframe my skills for PM roles. Applied to 35 companies, landed 8 interviews, got 3 offers. Now a PM at a unicorn."
-                    </p>
-                    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
-                        <div style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 18px;">
-                            KN
-                        </div>
-                        <div>
-                            <div style="font-weight: 600; color: #ffffff;">Kevin Nguyen</div>
-                            <div style="font-size: 14px; color: #aaa;">Data Analyst → Product Manager</div>
-                            <div style="font-size: 13px; color: #888;">Startup (now unicorn)</div>
-                        </div>
-                    </div>
-                    <div style="padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; font-weight: 600; color: #667eea;">
-                        📊 3 job offers, successful career pivot
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Carousel dots -->
-        <div style="display: flex; justify-content: center; gap: 8px; margin-top: 32px;">
-            <button onclick="showCareerTestimonial(0)" class="career-testimonial-dot" style="width: 12px; height: 12px; border-radius: 50%; background: #667eea; border: none; cursor: pointer; transition: all 0.3s;"></button>
-            <button onclick="showCareerTestimonial(1)" class="career-testimonial-dot" style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); border: none; cursor: pointer; transition: all 0.3s;"></button>
-            <button onclick="showCareerTestimonial(2)" class="career-testimonial-dot" style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); border: none; cursor: pointer; transition: all 0.3s;"></button>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Section with Schema Markup -->
-<section style="background: #000000; padding: 80px 24px; margin: 40px 0;" itemscope itemtype="https://schema.org/FAQPage">
-    <div style="max-width: 900px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 48px; color: #ffffff;">Frequently Asked Questions</h2>
-        
-        <div style="display: flex; flex-direction: column; gap: 0;">
-            <!-- FAQ 1 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(0)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">How is this different from a traditional career coach?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Traditional career coaches cost $200-$500/hr and require scheduling. CareerIQ gives you 24/7 AI coaching for $49/month—unlimited questions, instant answers. Plus real salary data (coaches guess), job tracking automation (coaches use spreadsheets), and interview practice with AI feedback. You get personalized advice without the $3k-$10k price tag and waiting for appointments. Think of it as a career coach in your pocket, always available, backed by data.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 2 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(1)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">What if I'm not actively job hunting—is this still useful?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Absolutely. 60% of users aren't job hunting—they're optimizing their current role. Use it for promotion strategy, salary negotiation prep, skills gap analysis, and career path planning. Check your market value every quarter. Get coaching on handling difficult managers or stakeholder situations. Track internal opportunities. Career growth isn't just about changing jobs—it's about maximizing your current position. Many clients got promoted without ever applying externally.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 3 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(2)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">How accurate is the salary data, and where does it come from?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Aggregated from 500k+ real salary data points across Glassdoor, Levels.fyi, Blind, and verified user submissions. Updated quarterly. Filtered by role, experience level, location, and company size. Not generic ranges—specific data for "Senior PM with 6 years in SF at Series B SaaS." One user discovered she was $52k underpaid using this data. Another negotiated a $45k raise. Accuracy matters—this isn't guesswork.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 4 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(3)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">What's the 90-day promotion guarantee? How does that work?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Simple: If you actively use CareerIQ for 90 days (engage with AI coach weekly, track your wins, follow the promotion roadmap) and don't get promoted or a meaningful raise, you get a full refund—no questions asked. 73% of active users got promoted or significant raises within 90 days. This isn't magic; it's structured strategy. You put in the work, follow the plan, and see results. If not, you don't pay.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 5 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(4)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">Can I use this if I'm switching careers or industries?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Perfect for career pivots. AI coach helps you reframe your existing skills for new roles—identify transferable experience, rewrite your resume for different industries, and practice answering "why this change?" in interviews. One user went from finance analyst to product manager in 8 weeks. Another pivoted from marketing to UX design. The job tracking keeps your multi-industry search organized. Career pivots are hard—this makes them manageable.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 6 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(5)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">How is this different from LinkedIn Premium or other job search tools?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">LinkedIn Premium ($40/month) gives you InMail and who-viewed-your-profile. CareerIQ gives you AI career coaching, salary intelligence, interview practice with feedback, and job tracking automation—for $49/month. LinkedIn shows job postings; CareerIQ helps you get them. Think of it this way: LinkedIn is discovery, CareerIQ is strategy and execution. Many users keep both—LinkedIn for networking, CareerIQ for winning. But if you had to pick one? This delivers more career growth per dollar.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 7 -->
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(6)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">What if I'm early in my career? Is this for senior people only?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">Works for all levels—entry-level to executive. Junior professionals use it for resume building, interview prep, and understanding career paths. Mid-level use it for promotions and salary negotiation. Seniors use it for executive positioning and leadership strategy. The AI adapts advice to your experience level. Early career? You'll get tactical job search guidance. Senior? You'll get strategic positioning advice. 500+ users across all experience levels—everyone grows faster with the right coaching.</div>
-                </div>
-            </div>
-            
-            <!-- FAQ 8 -->
-            <div style="padding: 24px 0;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <button onclick="toggleCareerFaq(7)" class="career-faq-question" style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center; background: none; border: none; color: #ffffff; font-size: 18px; font-weight: 600; cursor: pointer; padding: 0;">
-                    <span itemprop="name">How does the AI interview practice work? Is it realistic?</span>
-                    <span class="career-faq-icon" style="font-size: 24px; transition: transform 0.3s; margin-left: 16px;">+</span>
-                </button>
-                <div class="career-faq-answer" style="display: none; margin-top: 16px; color: #aaa; line-height: 1.7;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">AI asks you role-specific questions (behavioral, technical, situational) based on the job you're targeting. You respond via text or voice. AI analyzes your answer for structure (STAR method), clarity, specificity, and impact framing. Gives detailed feedback: "Good example, but add quantified results. Try: 'Led a team of 5, shipped in 6 weeks, increased conversion 23%.'" Practice 10-15 times before real interviews. One user aced 4 final rounds after practicing here. It's like having an interview coach on-demand.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<script>
-// Career testimonial carousel
-let currentCareerTestimonial = 0;
-const totalCareerTestimonials = 3;
-
-function showCareerTestimonial(index) {
-    const slides = document.querySelectorAll('.career-testimonial-slide');
-    const dots = document.querySelectorAll('.career-testimonial-dot');
-    
-    slides.forEach((slide, i) => {
-        slide.style.opacity = i === index ? '1' : '0';
-    });
-    
-    dots.forEach((dot, i) => {
-        if (i === index) {
-            dot.style.background = '#667eea';
-            dot.style.width = '32px';
-        } else {
-            dot.style.background = 'rgba(255,255,255,0.3)';
-            dot.style.width = '12px';
-        }
-    });
-    
-    currentCareerTestimonial = index;
-}
-
-// Auto-rotate career testimonials
-setInterval(() => {
-    currentCareerTestimonial = (currentCareerTestimonial + 1) % totalCareerTestimonials;
-    showCareerTestimonial(currentCareerTestimonial);
-}, 6000);
-
-// Career FAQ toggle
-function toggleCareerFaq(index) {
-    const faqQuestions = document.querySelectorAll('.career-faq-question');
-    const faqAnswers = document.querySelectorAll('.career-faq-answer');
-    const faqIcons = document.querySelectorAll('.career-faq-icon');
-    
-    const isOpen = faqAnswers[index].style.display === 'block';
-    
-    faqAnswers[index].style.display = isOpen ? 'none' : 'block';
-    faqIcons[index].style.transform = isOpen ? 'rotate(0deg)' : 'rotate(45deg)';
-}
-</script>
     <section style="padding: 100px 24px; background: #ffffff;">
         <div style="max-width: 1200px; margin: 0 auto;">
             <h2 class="section-title">Real People. Real Career Growth.</h2>
