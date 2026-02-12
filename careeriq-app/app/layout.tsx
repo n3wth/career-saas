@@ -55,6 +55,44 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <head>
+          {/* ============ IMAGE OPTIMIZATION - Cycle 12 ============ */}
+          {/* Preload critical images for LCP optimization */}
+          <link 
+            rel="preload" 
+            as="image" 
+            href="/images/hero-1920.webp"
+            type="image/webp"
+            media="(min-width: 1024px)"
+          />
+          <link 
+            rel="preload" 
+            as="image" 
+            href="/images/hero-768.webp"
+            type="image/webp"
+            media="(min-width: 768px) and (max-width: 1023px)"
+          />
+          <link 
+            rel="preload" 
+            as="image" 
+            href="/images/hero-375.webp"
+            type="image/webp"
+            media="(max-width: 767px)"
+          />
+          
+          {/* Fallback JPEG preload */}
+          <link 
+            rel="preload" 
+            as="image" 
+            href="/images/hero-1920.jpg"
+            type="image/jpeg"
+            media="(min-width: 1024px)"
+          />
+          
+          {/* DNS Prefetch for image CDN and external services */}
+          <link rel="dns-prefetch" href="https://cdn.example.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          
           {/* Canonical URL */}
           <link rel="canonical" href="https://career-saas.vercel.app" />
           
