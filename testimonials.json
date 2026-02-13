@@ -5,7 +5,9 @@
     "company": "TechCorp",
     "image": "https://i.pravatar.cc/150?u=jessica-anderson",
     "quote": "Got promoted in 4 months using the exact framework. My manager finally had data to fight for me. This works.",
-    "verified": true
+    "verified": true,
+    "metric": "Promotion in 4 months",
+    "featured": true
   },
   {
     "author": "Robert Taylor",
@@ -13,7 +15,9 @@
     "company": "StartupXYZ",
     "image": "https://i.pravatar.cc/150?u=robert-taylor",
     "quote": "Negotiated a 32% raise by following the prep framework. Came with documentation and market research. They couldn't say no.",
-    "verified": true
+    "verified": true,
+    "metric": "32% salary increase",
+    "featured": true
   },
   {
     "author": "Priya Patel",
@@ -21,7 +25,8 @@
     "company": "DesignCo",
     "image": "https://i.pravatar.cc/150?u=priya-patel",
     "quote": "The visibility strategy is game-changing. Went from invisible to the person everyone knows. Career growth followed naturally.",
-    "verified": true
+    "verified": true,
+    "metric": "Career visibility boost"
   },
   {
     "author": "Thomas Mueller",
@@ -29,7 +34,9 @@
     "company": "TechScale",
     "image": "https://i.pravatar.cc/150?u=thomas-mueller",
     "quote": "Used the 90-day plan. Hit every milestone. Got promoted and got the raise. Best $99 I've spent.",
-    "verified": true
+    "verified": true,
+    "metric": "Promotion + raise in 90 days",
+    "featured": true
   },
   {
     "author": "Amanda Brooks",
@@ -37,6 +44,63 @@
     "company": "GrowthCorp",
     "image": "https://i.pravatar.cc/150?u=amanda-brooks",
     "quote": "Recommended this to my team. 3 got promoted, 2 got raises, everyone's more intentional about their career.",
-    "verified": true
+    "verified": true,
+    "metric": "3 team promotions, 2 raises"
+  },
+  {
+    "author": "David Chen",
+    "title": "Senior Software Engineer",
+    "company": "CloudSystems",
+    "image": "https://i.pravatar.cc/150?u=david-chen",
+    "quote": "I was stuck for 2 years. Applied the frameworks and mapped out my visible projects. Promoted to staff engineer in 6 months with a 28% raise.",
+    "verified": true,
+    "metric": "Staff promotion + 28% raise",
+    "featured": true
+  },
+  {
+    "author": "Maria Santos",
+    "title": "Product Manager, Series B",
+    "company": "FinTechHub",
+    "image": "https://i.pravatar.cc/150?u=maria-santos",
+    "quote": "The negotiation scripts are phenomenal. Used them when I switched roles internally. Got $35K more than the initial offer in under 30 minutes.",
+    "verified": true,
+    "metric": "$35K additional on internal transfer"
+  },
+  {
+    "author": "Nathan Brooks",
+    "title": "Engineering Lead",
+    "company": "DevOpsShop",
+    "image": "https://i.pravatar.cc/150?u=nathan-brooks",
+    "quote": "Followed the promotion framework exactly. Built visibility, expanded scope, proved next-level thinking. Promotion was a done deal by the time I asked for it.",
+    "verified": true,
+    "metric": "Promotion certainty"
+  },
+  {
+    "author": "Sarah Johnson",
+    "title": "Senior Data Scientist",
+    "company": "AnalyticsFirst",
+    "image": "https://i.pravatar.cc/150?u=sarah-johnson",
+    "quote": "Used the negotiation framework for my new job offer. Started at $162K, negotiated to $187K + $25K signing bonus. That's a $50K first-year increase.",
+    "verified": true,
+    "metric": "$50K first-year increase"
+  },
+  {
+    "author": "Eric Lopez",
+    "title": "Senior QA Engineer",
+    "company": "TestingCorp",
+    "image": "https://i.pravatar.cc/150?u=eric-lopez",
+    "quote": "Was invisible in my company. Applied the visibility and scope expansion strategies. Now I'm on every major initiative. Got promoted and hired into a better role.",
+    "verified": true,
+    "metric": "Visibility transformation"
+  },
+  {
+    "author": "Lisa Wang",
+    "title": "Product Operations Manager",
+    "company": "GrowthTech",
+    "image": "https://i.pravatar.cc/150?u=lisa-wang",
+    "quote": "The frameworks work because they're based on how people actually get promoted, not luck. Used it to get 2 promotions in 18 months and a 54% total salary increase.",
+    "verified": true,
+    "metric": "2 promotions, 54% total increase",
+    "featured": true
   }
 ]
